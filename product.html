@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/indexfirst.css">
+    <link rel="stylesheet" href="css/mainfirst.css">
+    <link rel="stylesheet" href="css/productfirst.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+    <body>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                 <span></span>
+            </label>
+            <ul class="menu__box">
+                <li><a class="menu__item" href="index.html">Главная</a></li>
+                <li><a class="menu__item" href="copy.html">О компании</a></li>
+                <li><a class="menu__item" href="catalog.html">Каталог</a></li>
+                <li><a class="menu__item" href="contacts.html">Контакты</a></li>
+              </ul>
+        </div>
+        <div class="header">
+            <div class="logo"><a href="index.html"><img src="логотип.svg" alt=""></a>
+                <div class="name_catalog"><p><span> ≡ </span>Каталог</p></div>
+            </div>
+            <div class="right">
+                <div class="block_search">
+                    <div class="dop">
+                        <div class="ser">
+                            <input type="text" id="searchInput" autocomplete="off" placeholder="Поиск по сайту">
+                            <ul id="searchResults column"></ul>
+                        </div>
+                        <button type="button">Найти</button>
+                    </div>
+                    <div class="telephone">
+                        <img src="telephone.png" alt="">
+                        <span>+375-29-518-11-84</span>
+                    </div>
+                </div>
+                <nav>
+                    <div><a href="index.html">Главная</a></div>
+                    <div><a href="copy.html">О компании</a></div>
+                    <div><a href="catalog.html">Каталог</a></div>
+                    <div><a href="contacts.html">Контакты</a></div>
+                </nav>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inner">
+                <div class="left_part">
+                    <div class="catalog">
+                        <div><a href="car_uplotniteli.html">Уплотнители для автомобилей</a></div>
+                        <div><a href="samokley_uplotniteli.html">Уплотнитель самоклеящийся</a></div>
+                        <div><a href="copy.html">Промышленные уплотнители</a></div>
+                        <div><a href="copy.html">Прочее</a></div>
+                    </div>
+                    <div class="contacts">
+                        <div class="cont">
+                            <img src="contacts.png" alt="">
+                            <span>Контакты</span>
+                        </div>
+                        <div class="tel">
+                            <img src="telephone.png" alt="">
+                            <span>+375-29-518-11-84</span>
+                        </div>
+                        <div class="address">
+                            <img src="address.png" alt="">
+                            <span>г. Минск, ул. М. Лынькова, д. 85, корпус 6, помещение 1, комната 9</span>
+                        </div>
+                        <div class="email">
+                            <img src="email.png" alt="">
+                            <span>Autopromopt@mail.ru</span>
+                        </div>
+                        <div class="pod">
+                            <a href="contacts.html">Подробнее</a>
+                        </div>
+                      </div>
+                      <div class="feedback">
+                        <div class="name">
+                            <img src="feedback.png" alt="">
+                            <span>Обратная связь</span>
+                        </div>
+                        <div class="form">
+                            <form action="">
+                                <input type="text" placeholder="Введите фамилию" required>
+                                <input type="text" placeholder="Введите имя" required>
+                                <input type="text" placeholder="Введите отчество" required>
+                                <input type="email" placeholder="Введите email" required>
+                                <textarea coumns="5" id="" placeholder="Текст сообщения"></textarea>
+                                <button type="submit">Отправить</button>
+                            </form>
+                        </div>
+                      </div>
+                </div>
+                <div class="content">
+                    <h2></h2>
+                    <div class="tovar_page">
+                        <div class="tovar">
+                            <div class="for_img">
+                                <img src="" alt="" class="prod">
+                            </div>
+                            <div class="characteristics">
+                            </div>
+                        </div>
+                        <div class="zakaz"><a href="contacts.html">Заказать товар</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="menu">
+                <div class="item">
+                    <img src="about.png" alt="">
+                    <a href="">О компании</a>
+                </div>
+                <div class="item">
+                    <img src="catalog.png" alt="">
+                    <a href="catalog.html">Каталог</a>
+                </div>
+                <div class="item">
+                    <img src="contacts.png" alt="">
+                    <a href="contacts.html">Контакты</a>
+                </div>
+            </div>
+            <div class="soc">
+                <p>Мы в соцсетях</p>
+                <div class="item">
+                    <img src="facebook.png" alt="">
+                    <a href="#">Facebook</a>
+                </div>
+                <div class="item">
+                    <img src="instagram.png" alt="">
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </footer>
+        <script src="search.js"></script>
+        <script src="burger.js"></script>
+        <script src="product_characteristics.js"></script>
+    </body>
+</html>

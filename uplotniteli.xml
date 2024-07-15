@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <uplotnitelis>
+    <car_uplotniteli>
+        <uplotnitel>
+            <id>1</id>
+            <img>каталог/РКИ-99.png</img>
+            <number>РКИ-99</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>30</R1>
+            <R2>30</R2>
+            <R3>60</R3>
+            <R4>30</R4>
+            <flanec>0,8-2,4 мм</flanec>
+            <postavka>100 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>2</id>
+            <img>каталог/РКИ-107.png</img>
+            <number>РКИ-107</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>30</R1>
+            <R2>30</R2>
+            <R3>150</R3>
+            <R4>120</R4>
+            <flanec>3-5 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>3</id>
+            <img>каталог/РКИ-107-01.png</img>
+            <number>РКИ-107-01</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>30</R1>
+            <R2>30</R2>
+            <R3>150</R3>
+            <R4>120</R4>
+            <flanec>4-6 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>4</id>
+            <img>каталог/РКИ-52.png</img>
+            <number>РКИ-52</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>30</R1>
+            <R2>110</R2>
+            <R3>180</R3>
+            <R4>150</R4>
+            <flanec>2-4 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>5</id>
+            <img>каталог/УЭТ-6107802.png</img>
+            <number>УЭТ-6107802</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>30</R1>
+            <R2>50</R2>
+            <R3>150</R3>
+            <R4>150</R4>
+            <flanec>1-3 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>6</id>
+            <img>каталог/РКИ-55.png</img>
+            <number>РКИ-55</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>35</R1>
+            <R2>75</R2>
+            <R3>180</R3>
+            <R4>120</R4>
+            <flanec>1-3 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>7</id>
+            <img>каталог/УЭТ-6107805.png</img>
+            <number>УЭТ-6107805</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>30</R1>
+            <R2>110</R2>
+            <R3>180</R3>
+            <R4>120</R4>
+            <flanec>1-3 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>8</id>
+            <img>каталог/РКИ-140.png</img>
+            <number>РКИ-140</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>60</R1>
+            <R2>180</R2>
+            <R3>180</R3>
+            <R4>150</R4>
+            <flanec>1,6-2 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>9</id>
+            <img>каталог/РКИ-21-01.png</img>
+            <number>РКИ-21-01</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>30</R1>
+            <R2>180</R2>
+            <R3>0</R3>
+            <R4>0</R4>
+            <flanec>1-3 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>10</id>
+            <img>каталог/450-8402803.png</img>
+            <number>450/8402803</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>-</R1>
+            <R2>0</R2>
+            <R3>90</R3>
+            <R4>0</R4>
+            <flanec>0,8-1,6 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>11</id>
+            <img>каталог/3110-6107126-01.png</img>
+            <number>3110-6107126-01</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>30</R1>
+            <R2>180</R2>
+            <R3>180</R3>
+            <R4>180</R4>
+            <flanec>1-3 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>12</id>
+            <img>каталог/РКИ-49.png</img>
+            <number>РКИ-49</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>30</R1>
+            <R2>40</R2>
+            <R3>150</R3>
+            <R4>150</R4>
+            <flanec>1-3 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>13</id>
+            <img>каталог/РКИ-41-02.png</img>
+            <number>РКИ-41-02</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>35</R1>
+            <R2>180</R2>
+            <R3>200</R3>
+            <R4>180</R4>
+            <flanec>1,6-3,5 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>14</id>
+            <img>каталог/РКИ-28-01.png</img>
+            <number>РКИ-28-01</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>35</R1>
+            <R2>180</R2>
+            <R3>200</R3>
+            <R4>180</R4>
+            <flanec>2,2-3,5 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>15</id>
+            <img>каталог/РКИ-11.png</img>
+            <number>РКИ-11</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <R1>110</R1>
+            <R2>110</R2>
+            <R3>30</R3>
+            <R4>0</R4>
+            <flanec>0,8-2,6 мм</flanec>
+            <postavka>50 м</postavka>
+        </uplotnitel>
+    <uplotnitel>
+        <id>16</id>
+        <img>каталог/РКИ-30-04.png</img>
+        <number>РКИ-30-04</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>110</R1>
+        <R2>110</R2>
+        <R3>30</R3>
+        <R4>0</R4>
+        <flanec>0,8-2,6 мм</flanec>
+        <postavka>50 м</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>17</id>
+        <img>каталог/РКИ-16-01.png</img>
+        <number>РКИ-16-01</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>-</R1>
+        <R2>-</R2>
+        <R3>90</R3>
+        <R4>0</R4>
+        <flanec>0,8-1,6 мм</flanec>
+        <postavka>50 м</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>18</id>
+        <img>каталог/РКИ-51.png</img>
+        <number>РКИ-51</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>-</R1>
+        <R2>180</R2>
+        <R3>30</R3>
+        <R4>0</R4>
+        <flanec>0,8-2,6 мм</flanec>
+        <postavka>50 м</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>19</id>
+        <img>каталог/РК-18.png</img>
+        <number>РК-18</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>200</R1>
+        <R2>180</R2>
+        <R3>90</R3>
+        <R4>0</R4>
+        <flanec>2 мм</flanec>
+        <postavka>По запросу</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>20</id>
+        <img>каталог/РКИ-138.png</img>
+        <number>РКИ-138</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>200</R1>
+        <R2>110</R2>
+        <R3>60</R3>
+        <R4>0</R4>
+        <flanec>2,2-4,2 мм</flanec>
+        <postavka>50 м</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>21</id>
+        <img>каталог/РКИ-56.png</img>
+        <number>РКИ-56</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>120</R1>
+        <R2>-</R2>
+        <R3>60</R3>
+        <R4>0</R4>
+        <flanec>0,8-3,0 мм</flanec>
+        <postavka>50 м</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>22</id>
+        <img>каталог/РКИ-76.png</img>
+        <number>РКИ-76</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>-</R1>
+        <R2>-</R2>
+        <R3>60</R3>
+        <R4>0</R4>
+        <flanec>0,8-2,6 мм</flanec>
+        <postavka>50 м</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>23</id>
+        <img>каталог/РКИ-50.png</img>
+        <number>РКИ-50</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>30</R1>
+        <R2>50</R2>
+        <R3>30</R3>
+        <R4>30</R4>
+        <flanec>1-2 мм</flanec>
+        <postavka>-</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>24</id>
+        <img>каталог/РКИ-77.png</img>
+        <number>РКИ-77</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>30</R1>
+        <R2>50</R2>
+        <R3>30</R3>
+        <R4>30</R4>
+        <flanec>1-3,5 мм</flanec>
+        <postavka>-</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>25</id>
+        <img>каталог/РК-001.png</img>
+        <number>РК-001</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>-</R1>
+        <R2>180</R2>
+        <R3>30</R3>
+        <R4>30</R4>
+        <flanec>1-3,5 мм</flanec>
+        <postavka>-</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>26</id>
+        <img>каталог/РМ-133.png</img>
+        <number>РМ-133</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>30</R1>
+        <R2>50</R2>
+        <R3>30</R3>
+        <R4>30</R4>
+        <flanec>1-2 мм</flanec>
+        <postavka>-</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>27</id>
+        <img>каталог/688-57-382.png</img>
+        <number>688-57-382</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>30</R1>
+        <R2>30</R2>
+        <R3>30</R3>
+        <R4>30</R4>
+        <flanec>-</flanec>
+        <postavka>По запросу</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>28</id>
+        <img>каталог/РПр-002-01.png</img>
+        <number>РПр-002-01</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>30</R1>
+        <R2>30</R2>
+        <R3>30</R3>
+        <R4>30</R4>
+        <flanec>-</flanec>
+        <postavka>По запросу</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>29</id>
+        <img>каталог/РПр-004-01.png</img>
+        <number>РПр-004-01</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>30</R1>
+        <R2>30</R2>
+        <R3>30</R3>
+        <R4>30</R4>
+        <flanec>-</flanec>
+        <postavka>По запросу</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>30</id>
+        <img>каталог/2123-5107098.png</img>
+        <number>2123-5107098</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>30</R1>
+        <R2>30</R2>
+        <R3>30</R3>
+        <R4>30</R4>
+        <flanec>-</flanec>
+        <postavka>По запросу</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>31</id>
+        <img>каталог/РМ-136.png</img>
+        <number>РМ-136</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>-</R1>
+        <R2>110</R2>
+        <R3>30</R3>
+        <R4>60</R4>
+        <flanec>3-3,5 мм</flanec>
+        <postavka>По запросу</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>32</id>
+        <img>каталог/РМ-137.png</img>
+        <number>РМ-137</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>-</R1>
+        <R2>50</R2>
+        <R3>60</R3>
+        <R4>90</R4>
+        <flanec>4-5 мм</flanec>
+        <postavka>По запросу</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>33</id>
+        <img>каталог/РМ-138.png</img>
+        <number>РМ-138</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>-</R1>
+        <R2>50</R2>
+        <R3>60</R3>
+        <R4>90</R4>
+        <flanec>4-5 мм</flanec>
+        <postavka>По запросу</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>34</id>
+        <img>каталог/РМ-131.png</img>
+        <number>РМ-131</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>150</R1>
+        <R2>50</R2>
+        <R3>30</R3>
+        <R4>30</R4>
+        <flanec>3-3,5 мм</flanec>
+        <postavka>По запросу</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>35</id>
+        <img>каталог/3307-5603018.png</img>
+        <number>3307-5603018</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>0</R1>
+        <R2>110</R2>
+        <R3>0</R3>
+        <R4>200</R4>
+        <flanec>5-6 мм</flanec>
+        <postavka>Отрезки, стыкованные в кольцо</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>36</id>
+        <img>каталог/3302-5603018-02.png</img>
+        <number>3302-5603018-02</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>0</R1>
+        <R2>50</R2>
+        <R3>0</R3>
+        <R4>200</R4>
+        <flanec>5-6 мм</flanec>
+        <postavka>Отрезки, стыкованные в кольцо</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>37</id>
+        <img>каталог/3221-5403108-10.png</img>
+        <number>3221-5403108-10</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>0</R1>
+        <R2>50</R2>
+        <R3>0</R3>
+        <R4>200</R4>
+        <flanec>3-5 мм</flanec>
+        <postavka>Отрезки, стыкованные в кольцо</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>38</id>
+        <img>каталог/Н-102.png</img>
+        <number>H-102</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>0</R1>
+        <R2>50</R2>
+        <R3>0</R3>
+        <R4>200</R4>
+        <flanec>5-6 мм</flanec>
+        <postavka>Отрезки, стыкованные в кольцо</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>39</id>
+        <img>каталог/РГ-114.png</img>
+        <number>РГ-114</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>60</R1>
+        <R2>120</R2>
+        <R3>120</R3>
+        <R4>120</R4>
+        <flanec>-</flanec>
+        <postavka>4,11 м</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>40</id>
+        <img>каталог/РГ-165.png</img>
+        <number>РГ-165</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>60</R1>
+        <R2>200</R2>
+        <R3>120</R3>
+        <R4>150</R4>
+        <flanec>-</flanec>
+        <postavka>70 м</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>41</id>
+        <img>каталог/РГ-166-01.png</img>
+        <number>РГ-166-01</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>30</R1>
+        <R2>120</R2>
+        <R3>120</R3>
+        <R4>120</R4>
+        <flanec>-</flanec>
+        <postavka>100 м</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>42</id>
+        <img>каталог/РГ-143.png</img>
+        <number>РГ-143</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>60</R1>
+        <R2>30</R2>
+        <R3>150</R3>
+        <R4>90</R4>
+        <flanec>-</flanec>
+        <postavka>85 м</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>43</id>
+        <img>каталог/450-3724821.png</img>
+        <number>450/3724821</number>
+        <material>ПВХ</material>
+        <color>Черный</color>
+        <R1>30</R1>
+        <R2>50</R2>
+        <R3>30</R3>
+        <R4>30</R4>
+        <flanec>0,8-1,2 мм</flanec>
+        <postavka>По запросу</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>44</id>
+        <img>каталог/УЭТ-6822835.png</img>
+        <number>УЭТ-6822835</number>
+        <material>ПВХ</material>
+        <color>Черный</color>
+        <R1>-</R1>
+        <R2>-</R2>
+        <R3>30</R3>
+        <R4>30</R4>
+        <flanec>0,8-1,2 мм</flanec>
+        <postavka>По запросу</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>45</id>
+        <img>каталог/РГИ-173.png</img>
+        <number>РГИ-173</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>-</R1>
+        <R2>-</R2>
+        <R3>-</R3>
+        <R4>-</R4>
+        <flanec>-</flanec>
+        <postavka>50 м</postavka>
+    </uplotnitel>
+    <uplotnitel>
+        <id>46</id>
+        <img>каталог/РКИ-104.png</img>
+        <number>РКИ-104</number>
+        <material>EPDM</material>
+        <color>Черный</color>
+        <R1>-</R1>
+        <R2>50</R2>
+        <R3>-</R3>
+        <R4>-</R4>
+        <flanec>0,8-1,2 мм</flanec>
+        <postavka>50 м</postavka>
+    </uplotnitel>
+</car_uplotniteli>
+    <samokley_uplotniteli>
+        <uplotnitel>
+            <id>47</id>
+            <img>каталог/РКИ-19.png</img>
+            <number>РКИ-19</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>6x1,1 мм</lenta>
+            <postavka>По запросу</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>48</id>
+            <img>каталог/РГИ-175.png</img>
+            <number>РГИ-175</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>6x0,3 мм</lenta>
+            <postavka>По запросу</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>49</id>
+            <img>каталог/РКИ-134.png</img>
+            <number>РКИ-134</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>9x1,1 мм</lenta>
+            <postavka>По запросу</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>50</id>
+            <img>каталог/РКИ-139.png</img>
+            <number>РКИ-139</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>9x1,1 мм</lenta>
+            <postavka>По запросу</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>51</id>
+            <img>каталог/РГ-031LT.png</img>
+            <number>РГ-031LT</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>12x0,3 мм</lenta>
+            <postavka>120 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>52</id>
+            <img>каталог/РГ-127-01LT.png</img>
+            <number>РГ-127-01LT</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>10x0,3 мм</lenta>
+            <postavka>120 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>53</id>
+            <img>каталог/РГ-141LT-РГ-141В.png</img>
+            <number>РГ-141LT/РГ-141В</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>10x0,3 мм</lenta>
+            <postavka>150/210 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>54</id>
+            <img>каталог/РГ-149LT.png</img>
+            <number>РГ-149LT</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>11x0,3 мм</lenta>
+            <postavka>120 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>55</id>
+            <img>каталог/РГ-164В.png</img>
+            <number>РГ-164В</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>6x0,3 мм</lenta>
+            <postavka>300 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>56</id>
+            <img>каталог/РГ-167В.png</img>
+            <number>РГ-167В</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>10x0,3 мм</lenta>
+            <postavka>240 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>57</id>
+            <img>каталог/РГ-168В.png</img>
+            <number>РГ-168В</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>18x0,3 мм</lenta>
+            <postavka>100 м</postavka>
+        </uplotnitel>
+        <uplotnitel>
+            <id>58</id>
+            <img>каталог/РГ-169В.png</img>
+            <number>РГ-169В</number>
+            <material>EPDM</material>
+            <color>Черный</color>
+            <lenta>12x0,3 мм</lenta>
+            <postavka>150 м</postavka>
+        </uplotnitel>
+    </samokley_uplotniteli>
+</uplotnitelis>

@@ -1,0 +1,85 @@
+body{
+    div.content{
+        div.tovar_page{
+            border: 1px solid gray;
+            div.zakaz{
+                display: flex;
+                justify-content: center;
+                margin: 20px 0;
+                a{
+                    background: rgb(194, 4, 4);
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px 30px;
+                    font-size: 18px;
+                    &:hover{
+                        background: grey;
+                    }
+                }
+            }
+            div.tovar{
+                display: flex;
+                justify-content: center;
+                div.for_img{
+                    display: flex;
+                    img.prod{
+                        width: 300px;
+                        height: 350px;
+                        margin: 0 30px 0 30px;
+                    }
+                }
+                div.characteristics{
+                    width: 30%;
+                    p{
+                        font-weight: bold;
+                        font-size: 18px;
+                        span{
+                            font-weight: 100;
+                            color: gray;
+                        }
+                    }
+                }
+            }
+        }
+        h2{
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    body{
+        div.content{
+            div.tovar_page{
+                border:none;
+                div.tovar{
+                    width: 99%;
+                    margin: auto;
+                    flex-direction: column;
+                    div.for_img{
+                        width: 100%;
+                        justify-content: center;
+                        img.prod{
+                            width: 300px;
+                            height: 350px;
+                            margin: 0 30px 0 30px;
+                        }
+                    }
+                    div.characteristics{
+                        width: 100%;
+                        margin: 0 0 0 20px;
+                        p{
+                            font-weight: bold;
+                            font-size: 18px;
+                            span{
+                                font-weight: 100;
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

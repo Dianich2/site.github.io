@@ -1,0 +1,99 @@
+body div.content {
+  display: flex;
+  flex-direction: column;
+}
+body div.content h2 {
+  font-size: 30px;
+}
+body div.content #pagination {
+  display: flex;
+  justify-content: center;
+}
+body div.content #pagination a {
+  padding: 10px;
+  margin: 10px 5px 0 5px;
+  background: rgb(194, 4, 4);
+  text-decoration: none;
+  color: white;
+}
+body div.content #pagination a:hover {
+  background: grey;
+}
+body div.content table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  margin: 5px 0 0 0;
+}
+body div.content table td, body div.content table th {
+  border: 2px solid black;
+  justify-content: center;
+}
+body div.content table td.first, body div.content table th.first {
+  width: 40%;
+}
+body div.content table td.second, body div.content table th.second {
+  width: 30%;
+}
+body div.content table td.third, body div.content table th.third {
+  width: 30%;
+}
+body div.content table td a, body div.content table th a {
+  display: block;
+  width: 60%;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+}
+body div.content table td a:hover, body div.content table th a:hover {
+  color: rgb(194, 4, 4);
+}
+body div.content table td a.last, body div.content table th a.last {
+  background: rgb(194, 4, 4);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+body div.content table td a.last:hover, body div.content table th a.last:hover {
+  background: grey;
+}
+body div.content table td a img, body div.content table th a img {
+  max-width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 600px) {
+  body div.content table td, body div.content table th {
+    border: 2px solid black;
+    justify-content: center;
+  }
+  body div.content table td.second, body div.content table th.second {
+    width: 20%;
+  }
+  body div.content table td.first, body div.content table th.first {
+    width: 50%;
+  }
+  body div.content table td a, body div.content table th a {
+    display: block;
+    width: 90%;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+  }
+  body div.content table td a:hover, body div.content table th a:hover {
+    color: rgb(194, 4, 4);
+  }
+  body div.content table td a.last, body div.content table th a.last {
+    background: rgb(194, 4, 4);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 0;
+  }
+  body div.content table td a.last:hover, body div.content table th a.last:hover {
+    background: grey;
+  }
+  body div.content table td a img, body div.content table th a img {
+    max-width: 120px;
+    height: 120px;
+  }
+}/*# sourceMappingURL=car_uplotnitelifirst.css.map */

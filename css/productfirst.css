@@ -1,0 +1,77 @@
+body div.content div.tovar_page {
+  border: 1px solid gray;
+}
+body div.content div.tovar_page div.zakaz {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+body div.content div.tovar_page div.zakaz a {
+  background: rgb(194, 4, 4);
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+body div.content div.tovar_page div.zakaz a:hover {
+  background: grey;
+}
+body div.content div.tovar_page div.tovar {
+  display: flex;
+  justify-content: center;
+}
+body div.content div.tovar_page div.tovar div.for_img {
+  display: flex;
+}
+body div.content div.tovar_page div.tovar div.for_img img.prod {
+  width: 300px;
+  height: 350px;
+  margin: 0 30px 0 30px;
+}
+body div.content div.tovar_page div.tovar div.characteristics {
+  width: 30%;
+}
+body div.content div.tovar_page div.tovar div.characteristics p {
+  font-weight: bold;
+  font-size: 18px;
+}
+body div.content div.tovar_page div.tovar div.characteristics p span {
+  font-weight: 100;
+  color: gray;
+}
+body div.content h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  body div.content div.tovar_page {
+    border: none;
+  }
+  body div.content div.tovar_page div.tovar {
+    width: 99%;
+    margin: auto;
+    flex-direction: column;
+  }
+  body div.content div.tovar_page div.tovar div.for_img {
+    width: 100%;
+    justify-content: center;
+  }
+  body div.content div.tovar_page div.tovar div.for_img img.prod {
+    width: 300px;
+    height: 350px;
+    margin: 0 30px 0 30px;
+  }
+  body div.content div.tovar_page div.tovar div.characteristics {
+    width: 100%;
+    margin: 0 0 0 20px;
+  }
+  body div.content div.tovar_page div.tovar div.characteristics p {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  body div.content div.tovar_page div.tovar div.characteristics p span {
+    font-weight: 100;
+    color: gray;
+  }
+}/*# sourceMappingURL=productfirst.css.map */

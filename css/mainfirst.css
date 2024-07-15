@@ -1,0 +1,115 @@
+body div.container div.inner div.content {
+  overflow: hidden;
+}
+body div.container div.inner div.content div.about h1 {
+  background: rgb(209, 213, 217);
+  border-radius: 5px;
+  padding: 10px 5px;
+  font-size: 28px;
+}
+body div.container div.inner div.content .slider-container {
+  height: 380px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+body div.container div.inner div.content .slider-container .slider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+body div.container div.inner div.content .slider-container .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+body div.container div.inner div.content .slider-container .slide.active {
+  opacity: 1;
+}
+body div.container div.inner div.content .slider-container .slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body div.container div.inner div.content .slider-container .arrow {
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+}
+body div.container div.inner div.content .slider-container .arrow.prev {
+  left: 10px;
+}
+body div.container div.inner div.content .slider-container .arrow.next {
+  right: 10px;
+}
+body div.container div.inner div.content div.page_menu {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 30px 0 0 0;
+  justify-content: space-between;
+}
+body div.container div.inner div.content div.page_menu div {
+  width: 48%;
+  border: 1px solid grey;
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+}
+body div.container div.inner div.content div.page_menu div:hover {
+  border: 1px solid rgb(194, 4, 4);
+}
+body div.container div.inner div.content div.page_menu div a {
+  text-decoration: none;
+  color: grey;
+  font-size: 22px;
+  height: 80%;
+  width: 70%;
+  text-align: left;
+}
+body div.container div.inner div.content div.page_menu div a:hover {
+  color: rgb(194, 4, 4);
+}
+body div.container div.inner div.content div.page_menu div img {
+  width: 130px;
+  height: 130px;
+  margin-right: 7px;
+  padding: 5px;
+}
+
+@media (max-width: 1000px) {
+  body div.container div.inner {
+    width: 99%;
+    margin: 0 0 0 3.5px;
+  }
+  body div.container div.inner div.content .slider-container {
+    height: 300px;
+  }
+  body div.container div.inner div.content div.page_menu div {
+    width: 48%;
+  }
+  body div.container div.inner div.content div.page_menu div a {
+    font-size: 19px;
+  }
+}
+@media (max-width: 600px) {
+  body div.container div.inner div.content .slider-container {
+    height: 250px;
+  }
+  body div.container div.inner div.content div.page_menu div {
+    width: 100%;
+  }
+  body div.container div.inner div.content div.page_menu div a {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=mainfirst.css.map */

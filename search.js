@@ -1,35 +1,49 @@
 var searchInput = document.getElementById('searchInput');
-    var searchResults = document.getElementById('searchResults');
+    var searchResults = document.getElementById('searchResults column');
+    fetch('uplotniteli.xml')
+    .then(response => response.text())
+    .then(data => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(data, 'application/xml');
+      const uplotniteliElements = doc.getElementsByTagName('uplotnitel');
+      const catalog = Array.from(uplotniteliElements).map(element => ({
+        id: parseInt(element.querySelector('id').textContent),
+        img: element.querySelector('img').textContent,
+        number: element.querySelector('number').textContent,
+        material: element.querySelector('material').textContent,
+        color: element.querySelector('color').textContent,
+        postavka: element.querySelector('postavka').textContent
+      }));
 
-    searchInput.addEventListener('input', function() {
-      const searchValue = searchInput.value.toLowerCase();
-      searchResults.innerHTML = '';
+      searchInput.addEventListener('input', function() {
+        const searchTerm = searchInput.value.toLowerCase();
+        searchResults.innerHTML = '';
 
-      const xhr = new XMLHttpRequest();
-      xhr.open('GET', 'uplotniteli.xml', true);
-      xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-          const xmlDoc = xhr.responseXML;
-          const uplotniteli = xmlDoc.getElementsByTagName('uplotnitel');
+        const matchingItems = catalog.filter(item =>
+          item.number.toLowerCase().includes(searchTerm) ||
+          item.material.toLowerCase().includes(searchTerm) ||
+          item.color.toLowerCase().includes(searchTerm) ||
+          item.postavka.toLowerCase().includes(searchTerm)
+        );
 
-          for (let i = 0; i < uplotniteli.length; i++) {
-            const upl = uplotniteli[i];
-            const name = upl.getElementsByTagName('number')[0].textContent.toLowerCase();
-            const id = upl.getAttribute('id');
-
-            if (name.includes(searchValue)) {
-              const li = document.createElement("li");
-              const a = document.createElement("a");
-              a.textContent = name;
-              a.setAttribute('href', 'product.html?id=' + id);
-              li.appendChild(a);
-              searchResults.appendChild(li);
-            }
-          }
-          searchResults.style.display = searchResults.children.length > 0 ? 'block' : 'none';
+        matchingItems.forEach(item => {
+          const listItem = document.createElement('li');
+          listItem.textContent = `${item.number}`;
+          listItem.addEventListener('click', () => {
+            // Перенаправление на страницу с подробной информацией об уплотнителе
+            window.location.href = `product.html?id=${item.id}`;
+          });
+          searchResults.appendChild(listItem);
+        });
+      });
+      searchInput.addEventListener('input', function() {
+        if (searchInput.value.length === 0) {
+          searchResults.innerHTML = '';
         }
-      };
-      xhr.send();
+      });
+    })
+    .catch(error => {
+      console.error('Ошибка загрузки данных:', error);
     });
 
 searchInput.addEventListener('keydown', function(event) {

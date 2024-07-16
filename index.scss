@@ -103,9 +103,13 @@ div.header{
                         margin: 0;
                         list-style-type: none;
                         padding: 0;
+                        z-index: 10;
                         li{
                             height: 40px;
                             background: white;
+                            &:hover{
+                                cursor: pointer;
+                            }
                             border-left: 2px solid black;
                             border-right: 2px solid black;
                             border-bottom: 2px solid black;

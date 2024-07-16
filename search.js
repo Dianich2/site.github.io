@@ -31,6 +31,7 @@ var searchInput = document.getElementById('searchInput');
           listItem.textContent = `${item.number}`;
           listItem.addEventListener('click', () => {
             // Перенаправление на страницу с подробной информацией об уплотнителе
+            searchResults.style.display = 'none';
             window.location.href = `product.html?id=${item.id}`;
           });
           searchResults.appendChild(listItem);
@@ -38,7 +39,11 @@ var searchInput = document.getElementById('searchInput');
       });
       searchInput.addEventListener('input', function() {
         if (searchInput.value.length === 0) {
-          searchResults.innerHTML = '';
+          searchResults.style.display = 'none';
+          searchResults.style.zIndex = '0';
+        }
+        else{
+          searchResults.style.display = 'block';
         }
       });
     })

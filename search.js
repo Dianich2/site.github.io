@@ -1,5 +1,6 @@
 var searchInput = document.getElementById('searchInput');
     var searchResults = document.getElementById('searchResults column');
+    var len = 0;
     fetch('uplotniteli.xml')
     .then(response => response.text())
     .then(data => {
@@ -25,7 +26,7 @@ var searchInput = document.getElementById('searchInput');
           item.color.toLowerCase().includes(searchTerm) ||
           item.postavka.toLowerCase().includes(searchTerm)
         );
-
+        len = matchingItems.length;
         matchingItems.forEach(item => {
           const listItem = document.createElement('li');
           listItem.textContent = `${item.number}`;
@@ -38,12 +39,13 @@ var searchInput = document.getElementById('searchInput');
         });
       });
       searchInput.addEventListener('input', function() {
-        if (searchInput.value.length === 0) {
+        if (searchInput.value.length === 0 || len === 0) {
           searchResults.style.display = 'none';
           searchResults.style.zIndex = '0';
         }
         else{
           searchResults.style.display = 'block';
+          searchResults.style.zIndex = '10';
         }
       });
     })

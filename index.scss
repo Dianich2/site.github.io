@@ -587,6 +587,9 @@ div.container{
 
 @media (max-width:600px){
     body{
+        div.content{
+            width: 99%;
+        }
         footer{
             flex-direction: column;
             height: 500px;

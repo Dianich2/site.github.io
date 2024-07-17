@@ -22,7 +22,8 @@ $(document).ready(function() {
             var postavka = $(this).find('postavka').text();
             $('title').text('Уплотнитель ' + name);
             $('img.prod').attr('src', imgSrc);
-            $('h2').text('Уплотнитель ' + name);
+            $('h2#nam').text('Уплотнитель ' + name);
+            $('input#nam').attr('value', 'Уплотнитель ' + name);
             $('div.characteristics').append($('<p>').text("Уплотнитель: ").append($('<span>').text(name)));
             $('div.characteristics').append($('<p>').text("Цвет: ").append($('<span>').text(color)));
             $('div.characteristics').append($('<p>').text("Материал: ").append($('<span>').text(material)));

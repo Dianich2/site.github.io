@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body div.content div.tovar_page {
   border: 1px solid gray;
 }
@@ -43,6 +44,78 @@ body div.content h2 {
   font-size: 30px;
   text-align: center;
 }
+body .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Поднимаем на передний план */
+}
+body .form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .form-container div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+body .form-container div h2 {
+  width: 95%;
+  text-align: center;
+}
+body .form-container button#closeForm {
+  background: white;
+  border: none;
+  font-size: 25px;
+}
+body .form-container button#closeForm:hover {
+  cursor: pointer;
+}
+body .form-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 80%;
+}
+body .form-container form input, body .form-container form textarea {
+  width: 80%;
+  height: 25%;
+  margin: 0 10px 10px 10px;
+  font-size: 17px;
+}
+body .form-container form textarea {
+  height: 80px;
+  resize: vertical;
+}
+body .form-container form button {
+  margin: 10px 0 10px 10px;
+  width: 40%;
+  height: 20%;
+  background: rgb(191, 4, 4);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+body .form-container form button:hover {
+  cursor: pointer;
+  background: grey;
+}
 
 @media (max-width: 600px) {
   body div.content div.tovar_page {
@@ -73,5 +146,70 @@ body div.content h2 {
   body div.content div.tovar_page div.tovar div.characteristics p span {
     font-weight: 100;
     color: gray;
+  }
+  body .overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  body .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .form-container div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  body .form-container div h2 {
+    width: 95%;
+    text-align: center;
+  }
+  body .form-container button#closeForm {
+    background: white;
+    border: none;
+    font-size: 25px;
+  }
+  body .form-container button#closeForm:hover {
+    cursor: pointer;
+  }
+  body .form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 80%;
+  }
+  body .form-container form input, body .form-container form textarea {
+    width: 80%;
+    height: 25%;
+    margin: 0 10px 10px 10px;
+    font-size: 17px;
+  }
+  body .form-container form textarea {
+    height: 80px;
+    resize: vertical;
+  }
+  body .form-container form button {
+    margin: 10px 0 10px 10px;
+    width: 40%;
+    height: 20%;
+    background: rgb(191, 4, 4);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 16px;
+  }
+  body .form-container form button:hover {
+    cursor: pointer;
+    background: grey;
   }
 }/*# sourceMappingURL=productfirst.css.map */

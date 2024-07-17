@@ -46,6 +46,79 @@ body{
             text-align: center;
         }
     }
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 999; /* Поднимаем на передний план */
+      }
+  
+      .form-container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        max-width: 400px;
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            h2{
+                width: 95%;
+                text-align: center;
+            }
+        }
+        button#closeForm{
+            background: white;
+            border: none;
+            font-size: 25px;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            height: 80%;
+            input, textarea{
+                width: 80%;
+                height: 25%;
+                margin: 0 10px 10px 10px;
+                font-size: 17px;
+            }
+            textarea{
+                height: 80px;
+                resize:vertical;
+            }
+            button{
+                margin: 10px 0 10px 10px;
+                width: 40%;
+                height: 20%;
+                background: rgb(191, 4, 4);
+                border-radius: 5px;
+                color: white;
+                border: none;
+                font-size: 16px;
+                &:hover{
+                    cursor: pointer;
+                    background: grey;
+                }
+            }
+        }
+      }
 }
 
 @media(max-width: 600px) {
@@ -81,5 +154,71 @@ body{
                 }
             }
         }
+        .overlay {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+          }
+      
+          .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+            width: 100%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            div{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                h2{
+                    width: 95%;
+                    text-align: center;
+                }
+            }
+            button#closeForm{
+                background: white;
+                border: none;
+                font-size: 25px;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                align-items: center;
+                height: 80%;
+                input, textarea{
+                    width: 80%;
+                    height: 25%;
+                    margin: 0 10px 10px 10px;
+                    font-size: 17px;
+                }
+                textarea{
+                    height: 80px;
+                    resize:vertical;
+                }
+                button{
+                    margin: 10px 0 10px 10px;
+                    width: 40%;
+                    height: 20%;
+                    background: rgb(191, 4, 4);
+                    border-radius: 5px;
+                    color: white;
+                    border: none;
+                    font-size: 16px;
+                    &:hover{
+                        cursor: pointer;
+                        background: grey;
+                    }
+                }
+            }
+          }
     }
 }

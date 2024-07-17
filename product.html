@@ -96,7 +96,7 @@
                       </div>
                 </div>
                 <div class="content">
-                    <h2></h2>
+                    <h2 id="nam"></h2>
                     <div class="tovar_page">
                         <div class="tovar">
                             <div class="for_img">
@@ -105,9 +105,27 @@
                             <div class="characteristics">
                             </div>
                         </div>
-                        <div class="zakaz"><a href="contacts.html">Заказать товар</a></div>
+                        <div class="zakaz" id="openForm"><a href="#">Заказать товар</a></div>
                     </div>
                 </div>
+                <div class="overlay" id="overlay">
+                    <div class="form-container">
+                        <div>
+                            <h2>Заказать продукт </h2>
+                            <button id="closeForm">✖</button>
+                        </div>
+                      <form>
+                            <input type="text" placeholder="Введите фамилию" required>
+                            <input type="text" placeholder="Введите имя" required>
+                            <input type="text" placeholder="Введите отчество" required>
+                            <input type="text" placeholder="Введите телефон" required>
+                            <input type="email" placeholder="Введите email" required>
+                            <input type="text" id="nam" disabled>
+                            <textarea coumns="5" id="" placeholder="Текст сообщения"></textarea>
+                            <button type="submit">Отправить</button>
+                      </form>
+                    </div>
+                  </div>
             </div>
         </div>
         <footer>
@@ -139,6 +157,7 @@
         </footer>
         <script src="search.js"></script>
         <script src="burger.js"></script>
+        <script src="form.js"></script>
         <script src="product_characteristics.js"></script>
     </body>
 </html>

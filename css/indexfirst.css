@@ -213,8 +213,8 @@ div.header div.logo a {
   text-align: center;
 }
 div.header div.logo a img {
-  width: 270px;
-  height: 120px;
+  width: 250px;
+  height: 100px;
 }
 div.header div.logo div.name_catalog {
   height: 30%;
@@ -625,8 +625,9 @@ div.container div.inner div.left_part div.catalog div:hover a {
     justify-content: center;
   }
   body div.header div.logo a img {
-    width: 220px;
-    height: 100px;
+    margin-top: 5px;
+    width: 180px;
+    height: 85px;
   }
   body div.header div.right {
     width: 100%;
